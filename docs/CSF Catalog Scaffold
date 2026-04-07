@@ -1,87 +1,87 @@
 functions:
-  - name: Govern
-    code: GV
+  - code: GV
+    name: Govern
     categories:
-      - code: GV-Policy
-        name: Policy & Oversight
+      - code: GV-PO
+        name: Governance Policies
         subcategories:
-          - id: GV-Policy-01
-            name: Governance policies are established and maintained
-          - id: GV-Policy-02
-            name: Roles, responsibilities, and accountability are defined
-      - code: GV-Risk
+          - id: GV-PO-01
+            name: ""
+          - id: GV-PO-02
+            name: ""
+      - code: GV-RM
         name: Risk Management Strategy
         subcategories:
-          - id: GV-Risk-01
-            name: Risk management strategy is documented and approved
-          - id: GV-Risk-02
-            name: Risk appetite/tolerance is defined and communicated
+          - id: GV-RM-01
+            name: ""
+          - id: GV-RM-02
+            name: ""
 
-  - name: Identify
-    code: ID
+  - code: ID
+    name: Identify
     categories:
       - code: ID-AM
         name: Asset Management
         subcategories:
           - id: ID-AM-01
-            name: Physical and software assets are inventoried
+            name: ""
           - id: ID-AM-02
-            name: Asset ownership and criticality are identified
+            name: ""
       - code: ID-RM
         name: Risk Assessment
         subcategories:
           - id: ID-RM-01
-            name: Organizational risks are identified and analyzed
+            name: ""
           - id: ID-RM-02
-            name: Risk register is maintained
+            name: ""
 
-  - name: Protect
-    code: PR
+  - code: PR
+    name: Protect
     categories:
       - code: PR-AC
         name: Access Control
         subcategories:
           - id: PR-AC-01
-            name: Access to assets and systems is managed
+            name: ""
           - id: PR-AC-02
-            name: MFA and least privilege are enforced
+            name: ""
       - code: PR-DS
         name: Data Security
         subcategories:
           - id: PR-DS-01
-            name: Data is classified and protected
+            name: ""
           - id: PR-DS-02
-            name: Encryption and key management are implemented
+            name: ""
 
-  - name: Detect
-    code: DE
+  - code: DE
+    name: Detect
     categories:
       - code: DE-AE
-        name: Anomalies and Events
+        name: Anomalies & Events
         subcategories:
           - id: DE-AE-01
-            name: Anomalous activity is detected and analyzed
+            name: ""
           - id: DE-AE-02
-            name: Detection thresholds are defined and tuned
+            name: ""
 
-  - name: Respond
-    code: RS
+  - code: RS
+    name: Respond
     categories:
       - code: RS-RP
         name: Response Planning
         subcategories:
           - id: RS-RP-01
-            name: Incident response plan is established and tested
+            name: ""
           - id: RS-RP-02
-            name: Roles and communications are defined
+            name: ""
 
-  - name: Recover
-    code: RC
+  - code: RC
+    name: Recover
     categories:
       - code: RC-RP
         name: Recovery Planning
         subcategories:
           - id: RC-RP-01
-            name: Recovery plan is established and tested
+            name: ""
           - id: RC-RP-02
-            name: Restoration is executed and validated
+            name: ""
