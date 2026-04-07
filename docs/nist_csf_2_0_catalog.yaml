@@ -9,6 +9,7 @@ functions:
             name: ""
           - id: GV-PO-02
             name: ""
+
       - code: GV-RM
         name: Risk Management Strategy
         subcategories:
@@ -27,6 +28,7 @@ functions:
             name: ""
           - id: ID-AM-02
             name: ""
+
       - code: ID-RM
         name: Risk Assessment
         subcategories:
@@ -45,6 +47,7 @@ functions:
             name: ""
           - id: PR-AC-02
             name: ""
+
       - code: PR-DS
         name: Data Security
         subcategories:
