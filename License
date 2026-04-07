@@ -1,0 +1,20 @@
+---
+
+## 4) Docs
+
+### `docs/overview.md`
+```markdown
+# Overview: NIST CSF 2.0 Alignment
+
+This project operationalizes alignment to **NIST CSF 2.0** by tracking coverage at the subcategory level and connecting it to:
+- Organizational controls (policy/process/technical)
+- Evidence pointers (tickets, screenshots, configs, logs)
+- KPIs/KRIs and owners
+
+**CSF 2.0 change highlight:** Adds **Govern (GV)** for governance, risk, and strategy. The other Functions remain: Identify, Protect, Detect, Respond, Recover.
+
+Use this repo to perform:
+1. Baseline alignment
+2. Gap analysis
+3. Remediation tracking
+4. Ongoing metrics reporting
