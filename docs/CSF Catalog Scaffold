@@ -1,0 +1,88 @@
+
+functions:
+  - name: Govern
+    code: GV
+    categories:
+      - code: GV-Policy
+        name: Policy & Oversight
+        subcategories:
+          - id: GV-Policy-01
+            name: Governance policies are established and maintained
+          - id: GV-Policy-02
+            name: Roles, responsibilities, and accountability are defined
+      - code: GV-Risk
+        name: Risk Management Strategy
+        subcategories:
+          - id: GV-Risk-01
+            name: Risk management strategy is documented and approved
+          - id: GV-Risk-02
+            name: Risk appetite/tolerance is defined and communicated
+
+  - name: Identify
+    code: ID
+    categories:
+      - code: ID-AM
+        name: Asset Management
+        subcategories:
+          - id: ID-AM-01
+            name: Physical and software assets are inventoried
+          - id: ID-AM-02
+            name: Asset ownership and criticality are identified
+      - code: ID-RM
+        name: Risk Assessment
+        subcategories:
+          - id: ID-RM-01
+            name: Organizational risks are identified and analyzed
+          - id: ID-RM-02
+            name: Risk register is maintained
+
+  - name: Protect
+    code: PR
+    categories:
+      - code: PR-AC
+        name: Access Control
+        subcategories:
+          - id: PR-AC-01
+            name: Access to assets and systems is managed
+          - id: PR-AC-02
+            name: MFA and least privilege are enforced
+      - code: PR-DS
+        name: Data Security
+        subcategories:
+          - id: PR-DS-01
+            name: Data is classified and protected
+          - id: PR-DS-02
+            name: Encryption and key management are implemented
+
+  - name: Detect
+    code: DE
+    categories:
+      - code: DE-AE
+        name: Anomalies and Events
+        subcategories:
+          - id: DE-AE-01
+            name: Anomalous activity is detected and analyzed
+          - id: DE-AE-02
+            name: Detection thresholds are defined and tuned
+
+  - name: Respond
+    code: RS
+    categories:
+      - code: RS-RP
+        name: Response Planning
+        subcategories:
+          - id: RS-RP-01
+            name: Incident response plan is established and tested
+          - id: RS-RP-02
+            name: Roles and communications are defined
+
+  - name: Recover
+    code: RC
+    categories:
+      - code: RC-RP
+        name: Recovery Planning
+        subcategories:
+          - id: RC-RP-01
+            name: Recovery plan is established and tested
+          - id: RC-RP-02
+            name: Restoration is executed and validated
