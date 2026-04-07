@@ -1,20 +1,9 @@
----
+MIT License
 
-## 4) Docs
+Copyright (c) 2026
 
-### `docs/overview.md`
-```markdown
-# Overview: NIST CSF 2.0 Alignment
-
-This project operationalizes alignment to **NIST CSF 2.0** by tracking coverage at the subcategory level and connecting it to:
-- Organizational controls (policy/process/technical)
-- Evidence pointers (tickets, screenshots, configs, logs)
-- KPIs/KRIs and owners
-
-**CSF 2.0 change highlight:** Adds **Govern (GV)** for governance, risk, and strategy. The other Functions remain: Identify, Protect, Detect, Respond, Recover.
-
-Use this repo to perform:
-1. Baseline alignment
-2. Gap analysis
-3. Remediation tracking
-4. Ongoing metrics reporting
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software...
