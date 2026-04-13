@@ -1,0 +1,6 @@
+
+function,category,subcategory_id,subcategory_name,org_control_id,coverage_level,rationale,evidence_link,owner
+Protect,Access Control,PR-AC-01,Access to assets and systems is managed,CTRL-AC-01,Full,MFA enforced and least privilege documented,https://confluence.example.com/iam-mfa,Security Engineering
+Protect,Access Control,PR-AC-02,MFA and least privilege are enforced,CTRL-AC-01,Partial,MFA full; least privilege still maturing,https://jira.example.com/least-privilege,Security Engineering
+Govern,Policy & Oversight,GV-Policy-01,Governance policies are established,CTRL-GOV-01,None,Policy drafted not approved yet,https://confluence.example.com/policy-draft,GRC
+Identify,Asset Management,ID-AM-01,Assets are inventoried,CTRL-AM-01,Full,CMDB coverage 100% critical systems,https://confluence.example.com/cmdb,IT Operations
