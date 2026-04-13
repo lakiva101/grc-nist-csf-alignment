@@ -1,0 +1,25 @@
+controls:
+  - id: CTRL-AC-01
+    name: MFA Enforcement
+    owner: Security Engineering
+    status: Implemented
+    description: MFA is required for all workforce identities and privileged access.
+    evidence:
+      - type: config_export
+        location: s3://evidence/iam/mfa_policy.json
+      - type: ticket
+        location: https://jira.example.com/browse/ACCESS-REV-2026Q1
+    metrics:
+      - name: mfa_coverage_percent
+        target: 99
+        current: 98.7
+        last_updated: 2026-03-31
+
+  - id: CTRL-AC-02
+    name: Quarterly Access Reviews
+    owner: IT Operations
+    status: In-Progress
+    description: Formal access reviews executed quarterly for critical assets.
+    evidence:
+      - type: signoff
+        location: https://confluence.example.com/access-reviews
