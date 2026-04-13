@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """
 Validate mapping_nist_to_org.csv for required columns and allowed values.
